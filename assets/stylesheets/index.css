@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Sedgwick+Ave+Display|Permanent+Marker');
+
+nav.navbar {
+	border-radius: 0px;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 0px;
+	background-color: #0000005e;
+}
+
+.navbar-brand, h1 {
+	font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.nav-item, h5 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+p, h4 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.dropdown-item {
+	color: white;
+}
+
+.dropdown-menu.show {
+	color: white;
+	background-color: #0000005e;
+}
+
+.jumbotron {
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../images/BMain.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.btn-success {
+	background-color: #28a74500;
+}
+
+
